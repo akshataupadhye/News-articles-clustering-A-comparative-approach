@@ -19,7 +19,7 @@ The following was discovered in the EDA process:
 ![enter image description here](https://raw.githubusercontent.com/akshataupadhye/NewsArticles-CLustering/main/Images/DensityPlot-Topics.png)
 ![enter image description here](https://raw.githubusercontent.com/akshataupadhye/NewsArticles-CLustering/main/Images/BoxPlot-Topics.png)
 
-From the above plots we can infer that the classes are mostly uniformly distributed.
+From the above plots we can infer that the articles are normally distributed.
 
 Now that we have gained the understanding about the dataset through the EDA, we can move ahead and try various Machine Learning Algorithms to design a system to cluster similar news articles.
 
