@@ -2,7 +2,7 @@
 
 ## Understanding the problem
 
-Text clustering is an unsupervised learning technique which is used to group similar documents into a cluster. There are a variety of applications of text clustering such as media monitoring, recommender systems, information retrieval, customer feedback analysis and organization of documents such as the news articles, etc.
+Text clustering is an unsupervised learning technique which is used to group similar documents into a cluster. There are a variety of applications of text clustering such as chatbots, media monitoring, recommender systems, information retrieval, customer feedback analysis and organization of documents such as the news articles, identifying similar products, etc.
 In this project I will be using the [The 20 Newsgroups Dataset](https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html) which contains about 18000 news articles. So the goal of this project is to design a text classification model which can detect hidden relationships in the text data and can assign them to the most relevant groups. I will be using the Rand Index scores to compare the results of the clustering algorithms.
 
 ## Exploratory Data Analysis
@@ -19,7 +19,7 @@ The following was discovered in the EDA process:
 ![enter image description here](https://raw.githubusercontent.com/akshataupadhye/NewsArticles-CLustering/main/Images/DensityPlot-Topics.png)
 ![enter image description here](https://raw.githubusercontent.com/akshataupadhye/NewsArticles-CLustering/main/Images/BoxPlot-Topics.png)
 
-From the above plots we can infer that the articles are normally distributed.
+From the above plots we can infer that the target variable - news category has a uniform distribution.
 
 Now that we have gained the understanding about the dataset through the EDA, we can move ahead and try various Machine Learning Algorithms to design a system to cluster similar news articles.
 
